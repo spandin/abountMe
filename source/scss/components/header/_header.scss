@@ -1,6 +1,9 @@
 header {
     min-height: 100vh;
     padding: 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header-nav, .nav {
@@ -22,12 +25,9 @@ header {
 }
 
 .header-info {
-    margin: 25vh auto;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
     align-items: center;
-
     &__text {
         font-size: $textLogoH;
         padding-right: 20px;

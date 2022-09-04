@@ -1,0 +1,13 @@
+@media (max-width: $breakPointsMD) {
+    html {
+        font-size: $fontSizeL;
+    }
+
+    a {
+        font-size: $aLinkL;
+    }
+
+    button {
+        font-size: $fontSizeL;
+    }
+}

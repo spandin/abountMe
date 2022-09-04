@@ -1,0 +1,43 @@
+@media (max-width: $breakPointsXXXL) {
+    header {
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width: $breakPointsXL) {
+    header {
+        padding: 0px 50px;
+    }
+
+    .header-nav, .nav {
+        justify-content: flex-end;
+        &__logo {
+            display: none;
+        }
+        &__list {
+            gap: 30px;
+        }
+    }
+
+    .header-myskill {
+        gap: 30px;
+        span {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: $breakPointsMD) {
+    .header-info {
+        padding: 25vh auto;
+        &__text {
+            font-size: $textLogoL;
+        }
+    }
+}
+
+@media (max-width: $breakPointsSM) {
+    .header-nav, .nav {
+        display: none;
+    }
+}
