@@ -1,0 +1,78 @@
+main {
+    padding: 0px 150px;
+}
+
+.abount-me {
+    &__breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px; 
+        padding: 50px 0px;  
+    }
+
+    &__grid-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: stretch;
+        grid-row-gap: 100px;
+        grid-column-gap: 80px;
+        padding: 50px 0px; 
+    }
+}
+
+.my-projects {
+    padding: 50px 0px; 
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    .project {
+        &__block {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            height: 50vh;
+        }
+    
+        &__info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+    
+        &__img {
+            width: 60%;
+            height: 100%;
+            box-shadow: 0px 4px 35px rgba(255, 255, 255, 0.020);
+
+        }
+    
+        &__link {
+            display: block;
+            a {
+                color: black;
+                background-color: white;
+            }
+        }
+    
+        &__text {
+            overflow: hidden;
+        }
+    
+        &__button-link {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            border: 1px solid white;
+            padding: 10px 20px;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
+
+
+

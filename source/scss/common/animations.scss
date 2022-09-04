@@ -1,0 +1,11 @@
+@keyframes flashing-border {
+    0% {
+        border-color:#b750f2;
+    }
+    50% {
+        border-color:transparent;
+    }
+    100% {
+        border-color:#6050f2;
+    }
+ }

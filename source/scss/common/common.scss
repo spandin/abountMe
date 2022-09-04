@@ -1,0 +1,94 @@
+//--------------------------------------------------------------------------------------------------------------------------------------
+
+html {
+  box-sizing: border-box;
+  font-family: $defaultFont;
+  font-size: $fontSizeH;
+  color: $fontColor;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a, button {
+  transition: 0.25s linear;
+}
+
+a {
+  font-size: $aLinkH;
+  color: $aFontColor;
+  text-decoration: none;
+  &:hover, &:active {
+    padding: 5px 5px;
+    font-size: calc($aLinkH + 30%);
+    color: $aFontColorHover;
+    background-color: $aFontColor;
+  }
+}
+
+h1 { font-size: $h1SizeH; }; 
+h2 { font-size: $h2SizeH; }; 
+
+button {
+  font-family: $defaultFont;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+
+header {
+  background: $backgroundColor;
+}
+
+main {
+  background: $bodyColor;
+}
+
+footer {
+  background: $backgroundColor;
+}
+
+//-Scrollbar----------------------------------------------------------------------------------------------------------------------------
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: black;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: black;
+}
+
+::-webkit-scrollbar-track:active {
+  background: white;
+}
+
+.locked {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
