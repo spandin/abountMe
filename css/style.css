@@ -553,6 +553,9 @@ header {
   }
 }
 @media (max-width: 767px) {
+  .header-nav__list, .nav__list {
+    flex-direction: column;
+  }
   .header-info {
     padding: 25vh auto;
   }

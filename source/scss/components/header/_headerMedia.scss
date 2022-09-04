@@ -28,6 +28,12 @@
 }
 
 @media (max-width: $breakPointsMD) {
+    .header-nav, .nav {
+        &__list {
+            flex-direction: column;
+        }
+    }
+
     .header-info {
         padding: 25vh auto;
         &__text {
