@@ -47,14 +47,9 @@ main {
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
-            gap: 30px;
+            gap: 50px;
         }
-    
-        &__img {
-            width: 60vh;
-            height: 40vh;
-        }
-    
+
         &__link {
             display: block;
             a {
@@ -64,7 +59,12 @@ main {
         }
     
         &__text {
-            overflow: hidden;
+            height: 100%;
+        }
+    
+        &__img {
+            width: 60vh;
+            height: 40vh;
         }
     
         &__button-link {
