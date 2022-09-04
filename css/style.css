@@ -454,6 +454,9 @@ main {
   a {
     font-size: 32px;
   }
+  a:hover, a:active {
+    font-size: calc(32px + 30%);
+  }
   button {
     font-size: 24px;
   }
