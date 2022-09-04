@@ -13,6 +13,9 @@ header {
     align-items: center;
     &__logo {
         font-size: 36px;
+        padding: 0px 5px;
+        background-color: white;
+        color: black;
     }
     &__list {
         padding: 50px 0px;
@@ -28,17 +31,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    &__text {
+    gap: 50px;
+    &__name {
+        display: inline-block;
         font-size: $textLogoH;
         padding-right: 20px;
         white-space: nowrap;
         overflow: hidden;
-        border-right: 4px solid #50ccf298;
-        animation: flashing-border ease 1.5s infinite alternate; 
-    }
+        border-right: 4px solid white;
+        animation: flashing 0.75s step-end infinite;
+    }       
 
     &__bio {
-        margin-top: 50px;
         display: inline-grid;
         gap: 20px;
 

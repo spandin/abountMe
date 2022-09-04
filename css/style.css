@@ -345,15 +345,15 @@ textarea {
   padding: 0.2em 0;
 }
 
-@keyframes flashing-border {
+@keyframes flashing {
   0% {
-    border-color: #b750f2;
+    border-color: white;
   }
   50% {
     border-color: transparent;
   }
   100% {
-    border-color: #6050f2;
+    border-color: white;
   }
 }
 html {
@@ -477,6 +477,9 @@ header {
 }
 .header-nav__logo, .nav__logo {
   font-size: 36px;
+  padding: 0px 5px;
+  background-color: white;
+  color: black;
 }
 .header-nav__list, .nav__list {
   padding: 50px 0px;
@@ -491,17 +494,18 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
-.header-info__text {
+.header-info__name {
+  display: inline-block;
   font-size: 60px;
   padding-right: 20px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 4px solid rgba(80, 204, 242, 0.5960784314);
-  animation: flashing-border ease 1.5s infinite alternate;
+  border-right: 4px solid white;
+  animation: flashing 0.75s step-end infinite, printed 3s steps(9);
 }
 .header-info__bio {
-  margin-top: 50px;
   display: inline-grid;
   gap: 20px;
 }
