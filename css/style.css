@@ -4087,16 +4087,12 @@ img {
   object-fit: cover;
 }
 
-header {
-  background: #000;
+body {
+  background-color: #000;
 }
 
 main {
   background: #020202;
-}
-
-footer {
-  background: #000;
 }
 
 ::-webkit-scrollbar {

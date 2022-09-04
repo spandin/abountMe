@@ -42,17 +42,12 @@ img {
 }
 
 //--------------------------------------------------------------------------------------------------------------------------------------
-
-header {
-  background: $backgroundColor;
+body {
+  background-color: $backgroundColor;
 }
 
 main {
-  background: $bodyColor;
-}
-
-footer {
-  background: $backgroundColor;
+  background: $mainColor;
 }
 
 //-Scrollbar----------------------------------------------------------------------------------------------------------------------------
