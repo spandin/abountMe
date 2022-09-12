@@ -29,8 +29,9 @@
 
 @media (max-width: $breakPointsMD) {
     .header-nav, .nav {
+        justify-content: center;
         &__list {
-            flex-direction: column;
+
         }
     }
 
