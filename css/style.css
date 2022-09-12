@@ -365,9 +365,6 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-a, button {
   transition: 0.25s linear;
 }
 
@@ -487,6 +484,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: flex-end;
   gap: 50px;
 }
 
@@ -503,7 +501,7 @@ header {
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid white;
-  animation: flashing 0.75s step-end infinite, printed 3s steps(9);
+  animation: flashing 0.75s step-end infinite;
 }
 .header-info__bio {
   display: inline-grid;
