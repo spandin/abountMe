@@ -9,7 +9,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  transition: 0.25s linear;
+  transition: 0.15s linear;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
   text-decoration: none;
   &:hover, &:active {
     padding: 5px 5px;
-    font-size: calc($aLinkH + 30%);
+    font-size: calc($aLinkH + 20%);
     color: $aFontColorHover;
     background-color: $aFontColor;
   }

@@ -365,7 +365,7 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  transition: 0.25s linear;
+  transition: 0.15s linear;
 }
 
 a {
@@ -375,7 +375,7 @@ a {
 }
 a:hover, a:active {
   padding: 5px 5px;
-  font-size: calc(36px + 30%);
+  font-size: calc(36px + 20%);
   color: #000;
   background-color: #fff;
 }
