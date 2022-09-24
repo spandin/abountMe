@@ -1,21 +1,6 @@
-// 1
 window.addEventListener('load', (e) => {
     console.log(e.type);
 })
-
-// 2
-const image = document.querySelector('img')
- 
-function imgReady() {
-    console.log(`Изображение: ${image.offsetWidth}x${image.offsetHeight}`);
-}
-
-document.addEventListener("DOMContentLoaded", imgReady);
-
-// 3
-window.addEventListener("load", () => {
-    console.log(`Изображение: ${image.offsetWidth}x${image.offsetHeight}`);
-});
 
 // Плавная прокрутка
 const anchors = document.querySelectorAll('a[href*="#"]')
