@@ -7,8 +7,14 @@ html {
   color: $fontColor;
 }
 
-body.lock {
+body._lock {
   overflow: hidden;
+}
+
+body._pc, body._touch {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
 }
 
 *, *::before, *::after {

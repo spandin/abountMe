@@ -1,16 +1,20 @@
 window.addEventListener('load', (e) => {
-    console.log(e.type + ' page');
 })
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    document.body.classList.add('_touch')
+} else {
+    document.body.classList.add('_pc')
+}
 
 // Burger Nav
 const burgerMenu = document.querySelector('.header-menu__burger')
 const menuList = document.querySelector('.header-menu__list')
 
 burgerMenu.addEventListener('click', (e) => {
-    console.log('Burger menu');
-    document.body.classList.toggle('lock')
-    burgerMenu.classList.toggle('active')
-    menuList.classList.toggle('active')
+    document.body.classList.toggle('_lock')
+    burgerMenu.classList.toggle('_active')
+    menuList.classList.toggle('_active')
 })
 
 // Плавная прокрутка

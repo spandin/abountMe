@@ -27,27 +27,27 @@
                 transform: translate(0px, +100%);
                 overflow: auto;
             }
-            &__list.active {
+            &__list._active {
                 transform: translate(0px, 0px);
             }
             &__burger {
                 display: flex;
                 z-index: 10;
             }
-            &__burger.active {
+            &__burger._active {
                 justify-content: center;
                 align-items: center;
                 z-index: 10;
             }
-            &__burger.active span.burger-line-1 {
+            &__burger._active span.burger-line-1 {
                 position: absolute;
                 transform: rotate(45deg);
             }
-            &__burger.active span.burger-line-2 {
+            &__burger._active span.burger-line-2 {
                 transform: rotate(-45deg);
                 border-top: 2px solid rgba(255, 255, 255, 0);
             }
-            &__burger.active span.burger-line-3 {
+            &__burger._active span.burger-line-3 {
                 position: absolute;
                 transform: rotate(-45deg);
             }
