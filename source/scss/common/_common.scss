@@ -7,6 +7,10 @@ html {
   color: $fontColor;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
   transition: 0.15s linear;

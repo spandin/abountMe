@@ -1,5 +1,16 @@
 window.addEventListener('load', (e) => {
-    console.log(e.type);
+    console.log(e.type + ' page');
+})
+
+// Burger Nav
+const burgerMenu = document.querySelector('.header-menu__burger')
+const menuList = document.querySelector('.header-menu__list')
+
+burgerMenu.addEventListener('click', (e) => {
+    console.log('Burger menu');
+    document.body.classList.toggle('lock')
+    burgerMenu.classList.toggle('active')
+    menuList.classList.toggle('active')
 })
 
 // Плавная прокрутка
