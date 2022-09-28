@@ -717,6 +717,22 @@ main {
 }
 .footer {
   padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.footer__social a:hover, .footer__social a:active {
+  padding-top: 5px;
+  font-size: calc(36px + 0%);
+  color: #fff;
+  background-color: #000;
 }
 .footer__copyright {
   text-align: center;

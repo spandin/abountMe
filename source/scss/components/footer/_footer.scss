@@ -1,5 +1,23 @@
 .footer {
     padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    &__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        a {
+            &:hover, &:active {
+                padding-top: 5px;
+                font-size: calc($aLinkH + 0%);
+                color: $aFontColor;
+                background-color: $aFontColorHover;
+            }
+        }
+    }
     &__copyright {
         text-align: center;
     }
