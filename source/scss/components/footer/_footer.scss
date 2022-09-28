@@ -10,11 +10,13 @@
         justify-content: center;
         gap: 30px;
         a {
+            font-size: $aLinkL;
+            color: $aFontColor;
             &:hover, &:active {
-                padding-top: 5px;
-                font-size: calc($aLinkH + 0%);
-                color: $aFontColor;
-                background-color: $aFontColorHover;
+              padding: 5px 5px;
+              font-size: calc($aLinkL + 20%);
+              color: $aFontColor;
+              background-color: $aFontColorHover;
             }
         }
     }

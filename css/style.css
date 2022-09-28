@@ -375,7 +375,7 @@ body._pc, body._touch {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  transition: 0.15s linear;
+  transition: 0.13s linear;
 }
 
 a {
@@ -728,9 +728,13 @@ main {
   justify-content: center;
   gap: 30px;
 }
+.footer__social a {
+  font-size: 32px;
+  color: #fff;
+}
 .footer__social a:hover, .footer__social a:active {
-  padding-top: 5px;
-  font-size: calc(36px + 0%);
+  padding: 5px 5px;
+  font-size: calc(32px + 20%);
   color: #fff;
   background-color: #000;
 }
