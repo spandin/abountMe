@@ -10,11 +10,11 @@
         justify-content: center;
         gap: 30px;
         a {
-            font-size: $aLinkL;
+            font-size: calc($aLinkL - 20%);
             color: $aFontColor;
             &:hover, &:active {
               padding: 5px 5px;
-              font-size: calc($aLinkL + 20%);
+              font-size: $aLinkL;
               color: $aFontColor;
               background-color: $aFontColorHover;
             }

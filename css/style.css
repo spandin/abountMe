@@ -462,7 +462,7 @@ main {
     font-size: 32px;
   }
   a:hover, a:active {
-    font-size: calc(32px + 30%);
+    font-size: calc(32px + 20%);
   }
   button {
     font-size: 24px;
@@ -729,12 +729,12 @@ main {
   gap: 30px;
 }
 .footer__social a {
-  font-size: 32px;
+  font-size: calc(32px - 20%);
   color: #fff;
 }
 .footer__social a:hover, .footer__social a:active {
   padding: 5px 5px;
-  font-size: calc(32px + 20%);
+  font-size: 32px;
   color: #fff;
   background-color: #000;
 }
