@@ -33,7 +33,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
     })
 }
 
-// Плавная прокрутка
+// Smooth scrolling
 const anchors = document.querySelectorAll('a[href*="#"]')
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -48,7 +48,14 @@ for (let anchor of anchors) {
   })
 }
 
-//Довнлоад блокировщик
+// Add locked img
+const img = document.querySelectorAll('img'); 
+let img_array = [...img]; 
+img_array.forEach((i) => {
+    i.classList.add('locked')
+});
+
+// Download block
 (function () {
     "use strict";
 
