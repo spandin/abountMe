@@ -664,10 +664,9 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 15px;
+  gap: 10px;
 }
 .my-projects .project__link a {
-  display: block;
   color: black;
   background-color: white;
 }
