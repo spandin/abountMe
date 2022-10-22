@@ -558,6 +558,10 @@ header {
   justify-content: center;
   gap: 20px;
 }
+.header-myskill .webpack {
+  width: 24px;
+  height: 24px;
+}
 
 @media (max-width: 1568px) {
   header {
@@ -648,12 +652,6 @@ main {
   gap: 50px;
   height: 100%;
 }
-.my-projects .project__block:last-child {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 50px;
-  height: 100%;
-}
 .my-projects .project__info {
   display: flex;
   flex-direction: column;
@@ -673,7 +671,7 @@ main {
 }
 .my-projects .project__img {
   width: 60vh;
-  height: 40vh;
+  height: 100%;
 }
 .my-projects .project__button-link {
   background-color: rgba(0, 0, 0, 0);

@@ -94,4 +94,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    .webpack {
+        width: 24px;
+        height: 24px;
+    }
 }
