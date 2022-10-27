@@ -678,6 +678,18 @@ main {
 .my-projects .project__text {
   height: 100%;
 }
+.my-projects .project__text ol {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: auto;
+  list-style-position: inside;
+}
+.my-projects .project__text p:last-child {
+  display: inline;
+  background-color: white;
+  color: black;
+}
 .my-projects .project__img {
   width: 60vh;
   height: 100%;
